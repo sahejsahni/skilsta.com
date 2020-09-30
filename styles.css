@@ -1,110 +1,60 @@
 #hero {
 	background-color: white;
+	background-image: url("images/bg-image.png"), linear-gradient(#081F24 0%, #1A292C 45%, #2C4044 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
 }
 
 #logo {
-	padding-top: 104px;
+	padding-top: 84px;
 }
 
 #cta {
-	color: #323232;
-	text-align: center;
-	margin-top: 104px; 
+	color: white;
+	margin-top: 80px; 
 	margin-bottom: 24px;
-	font-family: nowaymedium;
-	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+	font-family: 'Oswald', sans-serif;
+	
 }
 
 #soon {
-	color: #323232;
-	text-align: center;
-	font-size: 1.5em;
-	padding-bottom: 20vh;
-	margin: 0px;
-	font-family: 'Ubuntu', sans-serif;
-
-}
-
-#journey {
-	background-color: #323232;
-	margin-top: 0px;
-}
-
-#journey-heading {
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	box-shadow: 0px 4px #6C6CFF;
-	bottom: 36px;
-	border-radius: 14px;
 	color: white;
-	font-size: 1.4em;
-	max-width: 200px;
-	padding-left: 32px;
-	padding-right: 32px;
-	padding-bottom: 16px;
+	font-size: 18px;
+	margin: 0px;
+	font-family: 'Karla', sans-serif;
+
+}
+
+#notifyme {
+	font-family: 'Karla', sans-serif;	background: linear-gradient(#FFC42E, #E1A203);
+	font-weight: bold;
+	font-size: 20px;
+	box-shadow: 0px 10px 20px #FFC42E33;
+	border: 2px solid #FFFFFF;
+	border-radius: 0px;
+	color: #112327;
+	padding-left: 40px;
+	padding-right: 40px;
 	padding-top: 16px;
-	background-color: #323232;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
+	padding-bottom: 16px;
+	margin-top: 120px;
 }
 
-#journey-image {
-	margin-top: 96px;
-	width: 40%;
-	min-width: 532px;
-	max-width: 640px;
-}
+#services {
+	color: white;
+	font-size: 18px;
+	margin-top: 72px;
+	font-family: 'Karla', sans-serif;
 
-#journey-image-xs {
-	margin-top: 12px;
-	width: 90%;
-	max-width: 640px;
 }
 
 
-#footer-md {
-	width: 100vw;
-	margin-top: 24px;
-}
-
-/* extra large devices 1600+ */
-
-@media (min-width: 1600px) 	{
+@media (min-width: 600px) {
 	#cta {
-		font-size: 7em;
-	}
-
-	#soon {
-		font-size: 2em;
-	}
-
-	#journey-image-container-xs {
-		display: none;
-	}
-}
-
-/* large devices 1200-1599 */
-
-@media (min-width: 1200px) and (max-width: 1599px) 	{
-	#cta {
-		font-size: 6em;
-	}
-
-	#journey-image-container-xs {
-		display: none;
-	}
-}
-
-/* medium devices 600-1199 */
-
-@media (min-width: 600px) and (max-width: 1199px) 	{
-	#cta {
-		font-size: 4em;
-	}
-
-	#journey-image-container-xs {
-		display: none;
+	font-size: 56px;
 	}
 }
 
@@ -112,11 +62,11 @@
 
 @media (max-width: 599px) 	{
 	#cta {
-		font-size: 2.5em;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+		font-size: 32px;
+		margin-bottom: 8px;
 	}
-
-	#journey-image-container {
-		display: none;
+	#logo {
+		width: 137px;
 	}
 }
+
